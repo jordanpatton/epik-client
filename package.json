@@ -1,0 +1,21 @@
+{
+  "name": "epikclient",
+  "version": "0.0.1",
+  "description": "Epik's client-side integration tool.",
+  "author": "Jordan Patton <jordanpatton@gmail.com>",
+  "main": "./lib/epikclient",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jordanpatton/epikclient.git"
+  },
+  "keywords": [
+    "epik",
+    "api",
+    "client",
+    "client library"
+  ],
+  "dependencies": {
+    "request": "~2.36.0",
+    "useragent": "~2.0.9"
+  }
+}
