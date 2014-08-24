@@ -1,4 +1,4 @@
-var epikclient = require('../lib/epikclient.js')();
+var epikclient = require('../lib/epikclient.js');
 
 epikclient.getSurveyPostResponseForm({surveySlug: 'm-example-com'}, {
   ip: '127.0.0.1',
