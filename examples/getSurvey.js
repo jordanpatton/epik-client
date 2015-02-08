@@ -1,5 +1,5 @@
-var epikclient = require('../lib/epikclient.js');
+var epikClient = require('../lib/epik-client.js');
 
-epikclient.getSurvey({surveySlug: 'm-example-com'}, {}, function (error, data) {
+epikClient.getSurvey({surveySlug: 'm-example-com'}, {}, function (error, data) {
   console.log(error, data);
 });

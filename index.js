@@ -1,1 +1,1 @@
-module.exports = require('./lib/epikclient');
+module.exports = require('./lib/epik-client');
